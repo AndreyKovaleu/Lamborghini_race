@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  &__list {
+    padding-top: 25px;
+    display: flex;
+    gap: 0 40px;
+    &--left {
+      padding-left: 25px;
+    }
+    &--right {
+      padding-right: 86px;
+    }
+  }
+
+  &__item {
+  }
+
+  &__link {
+    font-size: $fs-nav-15;
+    line-height: 18px;
+    color: $col-dark-grey;
+  }
+
+  &__logo-link {
+  }
+
+  &__img {
+  }
+}

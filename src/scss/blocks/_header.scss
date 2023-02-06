@@ -1,0 +1,10 @@
+.header {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: $col-gradient-light;
+  &__container {
+    @extend %container;
+  }
+}
