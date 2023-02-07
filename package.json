@@ -1,9 +1,8 @@
 {
-  "name": "test_krayt",
+  "name": "page",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "homepage": "https://AndreyKovaleu.github.io/",
   "type": "module",
   "scripts": {
     "dev": "gulp",

@@ -4,6 +4,12 @@
   padding: 0 10px;
 }
 
+%container-min {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 // %title {
 //   font-family: $ff-title;
 //   @include adaptiv-font(40, 24);

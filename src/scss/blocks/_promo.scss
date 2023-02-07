@@ -5,32 +5,57 @@
     @extend %container;
   }
 
+  &__wrapper {
+    min-height: 100vh;
+    padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   &__title {
     font-family: $ff-Impact;
     font-size: $fs-promo-76;
     line-height: 93px;
     letter-spacing: 0.02em;
-    text-align: center;
   }
 
   &__subtitle {
+    padding-top: 10px;
     font-family: $ff-Impact;
     font-size: $fs-promo-48;
     line-height: 59px;
-    text-align: center;
   }
 
   &__date {
+    padding: 10px 0;
     font-family: $ff-Impact;
     font-size: $fs-promo-34;
-    text-align: center;
     color: $col-gold;
   }
 
+  hr {
+    background-color: $col-black;
+    color: $col-black;
+    height: 1px;
+    width: 386px;
+    margin: 0 auto;
+  }
+
   &__text {
+    padding-top: 10px;
     font-size: $fs-promo-15;
     line-height: 18px;
-    text-align: center;
     color: $col-dark-grey;
+  }
+
+  &__link {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    display: inline;
   }
 }
